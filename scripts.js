@@ -32,6 +32,6 @@ function CountDownTimer(dt, display)
 window.onload = function () {
         document.getElementById("time").style.fontSize = "100px";
         display = document.querySelector('#time');  
-    CountDownTimer('2/25/2021 2:1 AM', display);
+    CountDownTimer('02/25/2021 2:1 AM', display);
 
 };
